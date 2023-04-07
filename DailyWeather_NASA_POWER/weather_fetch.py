@@ -64,6 +64,8 @@ def temp_to_df(json_file: str):
     return df
 
 
+# https://power.larc.nasa.gov/docs/tutorials/service-data-request/api/
+
 if __name__ == '__main__':
     locations = [(40.7128, -74.0060), (5, 10)]
     base_url = r"https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2MDEW,T2MWET,TS,T2M_RANGE,T2M_MAX,T2M_MIN&community=RE&longitude={longitude}&latitude={latitude}&start={start}&end={end}&format=JSON"
