@@ -45,18 +45,14 @@ def temp_to_df(json_file: str):
         row = {
             'date': date,
             'T2M': values,
-            'T2MDEW': data['properties']['parameter']['T2MDEW'][date],
-            'T2MWET': data['properties']['parameter']['T2MWET'][date],
-            'TS': data['properties']['parameter']['TS'][date],
-            'T2M_RANGE': data['properties']['parameter']['T2M_MAX'][date] - data['properties']['parameter']['T2M_MIN'][
-                date],
+            'PRECTOTCORR': data['properties']['parameter']['PRECTOTCORR'][date],
             'T2M_MAX': data['properties']['parameter']['T2M_MAX'][date],
             'T2M_MIN': data['properties']['parameter']['T2M_MIN'][date],
         }
         rows.append(row)
 
     # Convert the dictionary to a DataFrame and save as CSV
-    df = pd.DataFrame(rows, columns=['date', 'T2M', 'T2MDEW', 'T2MWET', 'TS', 'T2M_RANGE', 'T2M_MAX', 'T2M_MIN'])
+    df = pd.DataFrame(rows, columns=['date', 'T2M', 'PRECTOTCORR', 'T2M_MAX', 'T2M_MIN'])
     # df.to_csv('data.csv', index=False)
     print(df.head())
     print(df.info())
@@ -64,14 +60,14 @@ def temp_to_df(json_file: str):
     return df
 
 
-# https://power.larc.nasa.gov/docs/tutorials/service-data-request/api/
+#
 
 if __name__ == '__main__':
     locations = [(40.7128, -74.0060), (5, 10)]
-    base_url = r"https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,T2MDEW,T2MWET,TS,T2M_RANGE,T2M_MAX,T2M_MIN&community=RE&longitude={longitude}&latitude={latitude}&start={start}&end={end}&format=JSON"
-    start_date = 20230201
-    end_date = 20230228
+    base_url = r"https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M,PRECTOTCORR,T2M_MAX,T2M_MIN&community=RE&longitude={longitude}&latitude={latitude}&start={start}&end={end}&format=JSON"
+    start_date = 20230101
+    end_date = 20230331
 
     # fetch_temp_json(location=locations, base_url=base_url, start=start_date, end=end_date)
 
-    temp_to_df(json_file='POWER_Point_Daily_20230201_20230228_040d71N_074d01W_LST.json')
+    temp_to_df(json_file='POWER_Point_Daily_20230101_20230331_040d71N_074d01W_LST.json')
