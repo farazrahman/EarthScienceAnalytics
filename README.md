@@ -1,21 +1,21 @@
 # EarthScienceAnalytics
 
-#### Official Repo of Earth Science Analytics
+#### Official Repo of Earth Science Analytics 🌱
 
 ![Official Repo of Earth Science Analytics](EarthScienceAnalytics.png)
 
 
 ### INTRODUCTION:
-Welcome to the Earth Science Analytics repository! This repository contains a collection of projects focused on hands-on experience in fetching datasets from APIs that are useful in earth science analytics. Our projects cover a range of topics related to earth science, including weather data, climate change, and more.
+🌱 🍃 🍀 Welcome to the Earth Science Analytics repository! This repository contains a collection of projects focused on hands-on experience in fetching datasets from APIs that are useful in earth science analytics. Our projects cover a range of topics related to earth science, including weather data, climate change, and more.
 
 ### THE PROBLEM STATEMENT:
-- Machine learning and artificial intelligence (AI) adoption is rising in the fields of climate
+👩🏻‍💻 Machine learning and artificial intelligence (AI) adoption is rising in the fields of climate
 change, sustainability, biotechnology, healthcare, and DEI as a result of calls to action for using
 new technologies for social good. Addressing these problems sometimes requires big data and
 sometimes not-so big data. But one thing that will always be required is availability of clean,
 understandable and relevant data. 
 
-- However, In real life scenario, the datasets are often messy and hard to understand and fetch
+🔎 However, In real life scenario, the datasets are often messy and hard to understand and fetch
 from various public APIs, like fetching data from a NASA or NCBI database. Retrieving the
 right set of data for solving a problem using Analytics, AI or ML is extremely important to
 solve real life social problems. It is always possible to visit the APIs, websites for datasets, to
@@ -23,22 +23,22 @@ search and download the datasets in the required format. But this process is not
 is important to have the basic know how of various aspects of retrieving these publicly available
 datasets, programmatically and automate the process to make it scalable and reproducible. 
 
-- This is also an important skill for budding and aspiring data professionals to demonstrate their
+🔏 This is also an important skill for budding and aspiring data professionals to demonstrate their
 knowledge of data acquisition, modeling on real life data and practice their programming skills
 while doing so. Most of the online courses only teach complicated ML models using only clean
 and already available vanilla datasets, but fail to provide proper guidance to students to use real
 life datasets and make their learning scalable that can be utilized in a real data related job.
 
 ### OBJECTIVES:
-Our goal is to provide a practical learning experience for those interested in earth science analytics. Each project is designed to help you develop your skills in accessing and analyzing data using APIs. You will learn how to use programming languages such as Python to fetch data from APIs, explore the data, and perform analysis using various statistical and visualization tools.
+🎯 The goal is to provide a practical learning experience for those interested in earth science analytics. Each project is designed to help you develop your skills in accessing and analyzing data using APIs. You will learn how to use programming languages such as Python to fetch data from APIs, explore the data, and perform analysis using various statistical and visualization tools.
 
 ### SKILL REQUIREMENTS:
-Our projects are suitable for beginners as well as experienced programmers who are interested in earth science analytics. Each project is accompanied by detailed instructions and code examples, making it easy for you to follow along and complete the project at your own pace.
+👉🏼 The projects are suitable for beginners as well as experienced programmers who are interested in earth science analytics. Each project is accompanied by detailed instructions and code examples, making it easy for you to follow along and complete the project at your own pace.
 
 So, if you're interested in learning how to fetch and analyze datasets related to earth science, this is the perfect repository for you. We hope you enjoy working on our projects and learning more about this fascinating field!
 
 
-### Programming Language and Libraries used:
+### Programming Language and Libraries used 💻:
   1. Python- The code should run using Python versions 3.11
   2. Pandas
   3. OS
@@ -46,7 +46,7 @@ So, if you're interested in learning how to fetch and analyze datasets related t
   5. Matplotlib
   6. External API
 
-### Project Structure:
+### Project Structure 🧩:
 
 1. EarthScienceAnalytics- Main project directory
    1. Readme.md
@@ -55,11 +55,12 @@ So, if you're interested in learning how to fetch and analyze datasets related t
       1. project_fetch.py
       2. project_viz.ipynb
       3. project_description.md
+      4. test
    4. Project-2
       1. ...
       2. ...
       
-## Instructions for execution
+## Instructions for execution 
 To execute the project follow the steps below: NOTE: Pycharm is used as IDE
 
   1. Clone the repository
