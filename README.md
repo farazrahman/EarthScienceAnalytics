@@ -1,6 +1,9 @@
 # EarthScienceAnalytics
 
-Official Repo of Earth Science Analytics
+#### Official Repo of Earth Science Analytics
+
+![Official Repo of Earth Science Analytics](EarthScienceAnalytics.png)
+
 
 ### INTRODUCTION:
 Welcome to the Earth Science Analytics repository! This repository contains a collection of projects focused on hands-on experience in fetching datasets from APIs that are useful in earth science analytics. Our projects cover a range of topics related to earth science, including weather data, climate change, and more.
