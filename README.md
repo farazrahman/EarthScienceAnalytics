@@ -55,17 +55,7 @@ So, if you're interested in learning how to fetch and analyze datasets related t
    4. Project-2
       1. ...
       2. ...
-
-## File Structure and Description:
-The_RED:
-
-  1. README.md: read me file containing instructions to run the code 
-  2. requirements.txt- needed for specifying the libraries that needs to be installed for successfully running the code
-  3. create_db.py- for creating a database
-  4. heart-failure-prediction-eda-modeling.ipynb
-  5. deploy.py
-
-
+      
 ## Instructions for execution
 To execute the project follow the steps below: NOTE: Pycharm is used as IDE
 
@@ -75,5 +65,8 @@ To execute the project follow the steps below: NOTE: Pycharm is used as IDE
   4. python3 -m virtualenv venv
   5. source venv/bin/activate
   6. pip3 install -r requirements.txt
-  7. To create a db and the required tables run create_db.py in the project's root directory
-  8. To populate the db with data run load-data.py in the directory /data_ingestion_ETL/load.py
+  7. How to create a complete project as per the expectation of this repo:
+     1. To create a project open a directory with naming convention [ProjectName_API_NAME]
+     2. To create a fetch script use the naming convention [ProjectName_fetch.py]
+     3. To create a visualization script use the naming convention [ProjectName_Viz.ipynb]
+     4. To create a description use the naming convention [ProjectName_Description.md]
